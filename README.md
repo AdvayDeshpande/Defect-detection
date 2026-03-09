@@ -5,41 +5,27 @@ Built a neural network pipeline from scratch using NumPy, including a modular La
 
 This project demonstrates the ability to build and train neural networks from the ground up, focusing on the core mechanics that modern deep learning frameworks automate. Instead of relying on high-level APIs, I implemented the key components manually to deeply understand forward passes, backpropagation, optimization, and convolution operations (the building blocks behind CNN-based defect detection systems).
 
-What I built - 
+## What I built - 
 
-A minimal neural-network “layer” framework
-
+A minimal neural-network “layer” framework.
 Designed a clean Layer interface with forward, backward, and update to structure learning systems in a modular way.
-
-A fully-connected neural network (MLP) from scratch (NumPy)
-
+A fully-connected neural network (MLP) from scratch (NumPy).
 Implemented a custom Linear/Dense layer (forward pass, gradient computation, parameter updates).
-
 Implemented ReLU activation with correct backward gradient masking.
-
 Composed layers into a simple 2-layer neural network and verified shapes/gradients through sanity checks.
-
-A complete training pipeline
-
+A complete training pipeline.
 Built a mini-batch gradient descent training loop.
-
 Trained the model on a synthetic regression dataset and tracked training loss.
 
-Visualized:
-
-model predictions vs. training 
-
-learning curves (loss over epochs)
-
-Computer vision building blocks (NumPy)
-
+## Visualized
+model predictions vs. training.
+learning curves (loss over epochs).
+Computer vision building blocks (NumPy).
 Implemented zero-padding for batched multi-channel images.
-
 Implemented multi-channel 2D convolution over a batch of images with configurable stride (core CNN operation).
-
 This repo is a practical proof that I understand how deep learning works under the hood—from tensor shapes to gradient flow—while writing clean, testable numerical code.
 
-Skills & tools demonstrated (Recruiter-facing)
+## Skills & tools demonstrated 
 Machine Learning / Deep Learning Fundamentals
 Neural networks (MLP), forward propagation & backpropagation
 Manual gradient derivation + implementation
